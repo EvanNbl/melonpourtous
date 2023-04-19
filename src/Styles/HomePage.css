@@ -1,0 +1,406 @@
+.HomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.bodydiv_homepage {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+    max-width: 1900px;
+    max-height: 1000px;
+}
+
+.divleft_homepage {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 1100px;
+}
+
+.divright_homepage {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.divtitle_homepage {
+    width: 100%;
+    height: 15%;
+}
+
+.divimgleft_homepage {
+    background-color: #b4b4b4;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.divimgleft_homepage:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
+.divimgleft_homepage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.divrighttopimg_homepage {
+    background-image: url("../img/bg_righttop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 85%;
+    height: 65%;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none !important;
+}
+
+.divrighttopimg_homepage:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+.divrightbottomimg_homepage {
+    background-color: #FF7F7F;
+    width: 85%;
+    height: 26%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none !important;
+}
+
+.divrightbottomimg_homepage:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+.titletop_homepage {
+    letter-spacing: 2px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.divtexttop_homepage {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #7B7B7B;
+    
+    font-size: 20px;
+    margin: 0;
+}
+
+.divtexttop_homepage span {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.divtexttop_homepage:hover,
+.divtexttop_homepage span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottom_homepage {
+    background-color: white;
+    width: 85%;
+    height: 25%;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.bottom_homepage p {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #252525;
+}
+
+.infowindows_homepage{
+    display: none;
+}
+
+.bottomtop_homepage {
+    background-color: white;
+    width: 85%;
+    height: 10%;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.bottomtop_homepage p {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #252525;
+}
+
+.imgleftcore_homepage {
+    position: absolute;
+    width: 57%;
+    max-width: 1100px;
+}
+
+.divtopimgleftcore_homepage {
+    display: flex;
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+    padding: 20px;
+}
+
+.catdiv_homepage {
+    background-color: #FF7F7F;
+    border-radius: 20px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    font-size: 105%;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.datediv_homepage {
+    background-color: #000000;
+    color: white;
+    border-radius: 20px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    font-size: 105%;
+    font-weight: bold;
+}
+
+.divbottomimgleftcore_homepage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 60vh;
+    max-height: 690px;
+    padding: 0 20px;
+}
+
+.titlediv_homepage {
+    width: 85%;
+    background-color: #ffffff;
+    height: 10%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 0 20px;
+    margin-right: 20px;
+}
+
+.arrowdiv_homepage svg {
+    margin: 0;
+    height: 100%;
+}
+
+.arrowdiv_homepage {
+    width: 8%;
+    background-color: #FF7F7F;
+    height: 10%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 0 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.arrowdiv_homepage:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1700px) {
+    .bodydiv_homepage {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .HomePage {
+        height: unset;
+        padding-top: 85px;
+    }
+
+    .titletop_homepage {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .divleft_homepage {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .imgleftcore_homepage{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .divimgleft_homepage, .imgtop_homepage{
+        max-height: 750px;
+        height: 750px;
+
+    }
+
+    .divright_homepage {
+        width: 70%;
+        flex-direction: row;
+    }
+
+    .divrighttopimg_homepage, .divrightbottomimg_homepage {
+        margin: 0;
+        height: 300px;
+        width: 90%;
+    }
+
+    .divrightbottomimg_homepage {
+        margin-left: 20px;
+    }
+
+    .divrighttopimg_homepage {
+        margin-right: 20px;
+    }
+
+    .bottomtop_homepage{
+        height: 25%;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .divright_homepage {
+        width: 80%;
+    }
+
+    .divimgleft_homepage, .imgtop_homepage{
+        max-height: 550px;
+        height: 550px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .divright_homepage {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .divright_homepage {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .HomePage {
+        padding-top: 85px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .HomePage {
+        padding-top: 65px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .HomePage {
+        padding-top: 35px;
+    }
+
+    .divimgleft_homepage, .imgtop_homepage{
+        max-height: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .infowindows_homepage{
+        display: unset;
+        background-color: #FF7F7F;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    .HomePage {
+        padding-top: 135px;
+    }
+
+    .divright_homepage {
+        flex-direction: column;
+    }
+
+    .divrightbottomimg_homepage {
+        margin-left: 0px;
+    }
+
+    .divrighttopimg_homepage {
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .titletop_homepage {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .HomePage {
+        padding-top: 40px;
+    }
+
+    .bodydiv_homepage {
+        margin-bottom: 50px;
+    }
+
+    .divimgleft_homepage, .imgtop_homepage{
+        max-height: 300px;
+        height: 300px;
+    }
+}
